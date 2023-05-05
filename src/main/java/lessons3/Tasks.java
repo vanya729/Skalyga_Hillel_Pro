@@ -137,10 +137,9 @@ public class Tasks {
             }
         }
 
-        // Поменять местами значения максимального и минимального элементов
-        int temp = max;
+        int neytral = max;
         max = min;
-        min = temp;
+        min = neytral;
 
         System.out.println(Arrays.toString(array));
         System.out.println("Max = " + max);
