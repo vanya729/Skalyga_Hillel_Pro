@@ -14,19 +14,17 @@ public class Cat extends Animal {
 
     @Override
     public void run(int distance) {
-        super.run(distance);
         if (distance>=200){
-            System.out.println(name+" Say: " +"I'm lazy, run alone");
+            System.out.println(getName()+" Say: " +"I'm lazy, run alone");
         }else {
-            System.out.println(name+" Say: " +" Lets go ran "+ distance+"m");
+            System.out.println(getName()+" Say: " +" Lets go ran "+ distance+"m");
         }
     }
 
     @Override
     public void swim(int distance) {
-        super.swim(distance);
         if (distance>=0){
-            System.out.println(name+" Say: " +"I'm a cat, I can't swim");
+            System.out.println(getName()+" Say: " +"I'm a cat, I can't swim");
         }
     }
 }
