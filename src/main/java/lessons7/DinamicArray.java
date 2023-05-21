@@ -11,7 +11,11 @@ public class DinamicArray {
         array= new String[10];
         size=0;
     }
-    public void audit(int minCapacity) {
+    public int getSize() {
+        return size;
+    }
+
+    private void audit(int minCapacity) {
         if (array.length < minCapacity) {
             int newCapacity = array.length * 2;
             if (newCapacity < minCapacity) {
@@ -67,7 +71,5 @@ public class DinamicArray {
         }
     }
 
-    public int getSize() {
-        return size;
-    }
+
 }
