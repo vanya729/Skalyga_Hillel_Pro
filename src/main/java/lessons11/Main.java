@@ -1,7 +1,10 @@
 package lessons11;
 
-public class Main {
-    public static void main(String[] args) throws ArrayValueCalculator.ArrayDataException, ArrayValueCalculator.ArraySizeException {
+import lessons11.exceptions.ArrayDataException;
+import lessons11.exceptions.ArraySizeException;
+
+public class Main  {
+    public static void main(String[] args) throws  ArrayDataException, ArraySizeException {
         String[][] arr = {
                 {"0","1","2","3"},
                 {"4","5","6","7"},
@@ -30,18 +33,18 @@ public class Main {
         try {
             int res = calculator.doCalc(arr1);
             System.out.println(res);
-        }catch (ArrayValueCalculator.ArrayDataException e){
+        }catch (ArrayDataException e){
             System.out.println("Array data exception: " + e.getMessage());
-        }catch (ArrayValueCalculator.ArraySizeException e){
+        }catch (ArraySizeException e){
             System.out.println("Array size exception: " + e.getMessage());
         }
 
         try {
             int res1 = calculator.doCalc(arr2);
             System.out.println(res1);
-        }catch (ArrayValueCalculator.ArrayDataException e){
+        }catch (ArrayDataException e){
             System.out.println("Array data exception: " + e.getMessage());
-        }catch (ArrayValueCalculator.ArraySizeException e){
+        }catch (ArraySizeException e){
             System.out.println("Array size exception: " + e.getMessage());
         }
     }

@@ -1,6 +1,9 @@
 package lessons11;
 
-public class ArrayValueCalculator {
+import lessons11.exceptions.ArrayDataException;
+import lessons11.exceptions.ArraySizeException;
+
+public class ArrayValueCalculator{
 
     public int doCalc(String[][] arr) throws ArraySizeException, ArrayDataException {
         if (arr.length != 4 || arr[0].length != 4) {
@@ -18,17 +21,5 @@ public class ArrayValueCalculator {
             }
         }
         return sum;
-    }
-
-    public class ArraySizeException extends Exception {
-        public ArraySizeException(String message) {
-            super(message);
-        }
-    }
-
-    public class ArrayDataException extends Exception {
-        public ArrayDataException(String message) {
-            super(message);
-        }
     }
 }
