@@ -1,6 +1,5 @@
 package lessons10.homework1Plurals;
 
-
 import java.util.Map;
 
 public class Main {
@@ -30,8 +29,6 @@ public class Main {
 
         coffeeOrderBoard.draw();
 
-
     }
-
 }
 

@@ -50,23 +50,3 @@ public class CoffeeOrderBoard {
         return listOrder;
     }
 }
-
-/*
-6. Реалізувати метод draw у класі CoffeeOrderBoard.
- Цей метод виводить у консоль інформацію про поточний стан черги у порядку
- найближчого до видачі замовлення.
-
-Наприклад:
-
-=============
-
-Num | Name
-
-4 | Alen
-
-27 | Yoda
-
-33 | Obi-van
-
-34 | John Snow
- */
