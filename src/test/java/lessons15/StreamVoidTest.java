@@ -1,6 +1,5 @@
 package lessons15;
 
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -10,7 +9,9 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 import java.util.*;
 
-public class TestVoidMain {
+
+class StreamVoidTest {
+
 
         StreamVoid streamVoid = new StreamVoid();
 
@@ -171,5 +172,5 @@ public class TestVoidMain {
             assertEquals(expected, result);
         }
 
-}
+    }
 

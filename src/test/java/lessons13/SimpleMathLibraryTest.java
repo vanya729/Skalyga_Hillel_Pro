@@ -1,10 +1,12 @@
 package lessons13;
 
-//import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertThrows;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-//import org.junit.Test;
 public class SimpleMathLibraryTest {
     SimpleMathLibrary simpleMathLibrary = new SimpleMathLibrary();
 

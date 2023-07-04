@@ -11,9 +11,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.OptionalDouble;
 
-public class TestMainClass {
 
-    Ex ex = new Ex();
+class ExTest {
+
+
+        Ex ex = new Ex();
 
         @Test
         @DisplayName("Correct average value")
@@ -76,4 +78,4 @@ public class TestMainClass {
             assertEquals(expectedWords, lowerCaseWords);
         }
 
-}
+    }
