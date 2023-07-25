@@ -30,6 +30,12 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -90,7 +96,7 @@
                     <archive>
                         <manifest>
                             <!-- need put your main class -->
-                            <mainClass>RockPaperScissors.Main</mainClass>
+                            <mainClass>lessons20.ConversionApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

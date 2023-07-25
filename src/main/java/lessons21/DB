@@ -1,0 +1,117 @@
+CREATE TABLE Homework (
+                          id int auto_increment primary key,
+                          name varchar(128),
+                          description varchar(1024)
+);
+
+CREATE TABLE lesson (
+                        id int auto_increment primary key,
+                        name varchar(128),
+                        updatedAt timestamp,
+                        homework_id int
+);
+
+insert into homework (id, name, description) values (1, 'Leanor', 'Other stimulant use, unspecified with withdrawal');
+insert into homework (id, name, description) values (2, 'Donaugh', 'Coronary artery aneurysm and dissection');
+insert into homework (id, name, description) values (3, 'Renelle', 'Sltr-haris Type II physl fx lower end ulna, left arm, init');
+insert into homework (id, name, description) values (4, 'Colman', 'Corneal disorder due to contact lens, bilateral');
+insert into homework (id, name, description) values (5, 'Humberto', 'Burn of third degree of unspecified thumb (nail), sequela');
+insert into homework (id, name, description) values (6, 'Hadria', 'Nondisp fx of med epicondyl of r humer, 7thG');
+insert into homework (id, name, description) values (7, 'Cristy', 'Non-ABO incompat w acute hemolytic transfs react, subs');
+insert into homework (id, name, description) values (8, 'Steward', 'Passenger in hv veh injured in collision w pedl cyc in traf');
+insert into homework (id, name, description) values (9, 'Gayel', 'War op w unintent restrict of air/airwy, civilian, init');
+insert into homework (id, name, description) values (10, 'Tarah', 'Oth disrd of amniotic fluid and membrns, third tri, fetus 2');
+insert into homework (id, name, description) values (11, 'Garik', 'Inj conjunctiva and corneal abrasion w/o fb, right eye, init');
+insert into homework (id, name, description) values (12, 'Clemmy', 'Rheu lung disease w rheumatoid arthritis of right ank/ft');
+insert into homework (id, name, description) values (13, 'Demetre', 'Other superficial bite of left forearm, initial encounter');
+insert into homework (id, name, description) values (14, 'Viva', 'Unspecified fracture of third thoracic vertebra');
+insert into homework (id, name, description) values (15, 'Ase', 'Injury of l int carotid, intcr w LOC of 31-59 min, sequela');
+insert into homework (id, name, description) values (16, 'Elicia', 'Cochlear otosclerosis, bilateral');
+insert into homework (id, name, description) values (17, 'Nikolaus', 'Syphilis complicating pregnancy, unspecified trimester');
+insert into homework (id, name, description) values (18, 'Randell', 'Unsp injury of musc/fasc/tend prt biceps, left arm, init');
+insert into homework (id, name, description) values (19, 'Elbertina', 'Adverse effect of rifampicins, sequela');
+insert into homework (id, name, description) values (20, 'Steward', 'Vis def/sptl nglct following other ntrm intcrn hemorrhage');
+insert into homework (id, name, description) values (21, 'Juan', 'Oth fracture of shaft of l humerus, subs for fx w nonunion');
+insert into homework (id, name, description) values (22, 'Burnaby', 'Dual sensory impairment');
+insert into homework (id, name, description) values (23, 'Rebecca', 'Aseptic peritonitis due to forn sub acc left dur proc, init');
+insert into homework (id, name, description) values (24, 'Kora', 'Laceration w fb of unsp finger w damage to nail, sequela');
+insert into homework (id, name, description) values (25, 'Butch', 'Car driver injured in collision w car nontraf, init');
+insert into homework (id, name, description) values (26, 'Welby', 'Laceration without foreign body of unsp part of thorax');
+insert into homework (id, name, description) values (27, 'Cass', 'Fracture of xiphoid process, subs for fx w delay heal');
+insert into homework (id, name, description) values (28, 'Menard', 'Avoidant personality disorder');
+insert into homework (id, name, description) values (29, 'Lois', 'Non-prs chronic ulcer of left calf limited to brkdwn skin');
+insert into homework (id, name, description) values (30, 'Marline', 'Fall into well, initial encounter');
+insert into homework (id, name, description) values (31, 'Sunshine', 'Drown due to fall/jump fr burning passenger ship, sequela');
+insert into homework (id, name, description) values (32, 'Dolly', 'Infective myositis, right hand');
+insert into homework (id, name, description) values (33, 'Othilie', 'Inhalant dependence with intoxication');
+insert into homework (id, name, description) values (34, 'Sonnie', 'Prsn outsd pk-up/van inj in clsn w 2/3-whl mv in traf, sqla');
+insert into homework (id, name, description) values (35, 'Puff', 'Contact with hot saucepan or skillet');
+insert into homework (id, name, description) values (36, 'Cassie', 'Inj muscle and tendon of unsp wall of thorax, sequela');
+insert into homework (id, name, description) values (37, 'Ricoriki', 'Chronic embolism and thrombosis of right popliteal vein');
+insert into homework (id, name, description) values (38, 'Zorana', 'Nicotine dependence, unspecified, in remission');
+insert into homework (id, name, description) values (39, 'Kass', 'Poisoning by oth agents aff GI sys, self-harm, subs');
+insert into homework (id, name, description) values (40, 'Eula', 'Unilateral inguinal hernia, with gangrene');
+insert into homework (id, name, description) values (41, 'Hulda', 'Chronic petrositis, left ear');
+insert into homework (id, name, description) values (42, 'Bari', 'Disp fx of prox phalanx of r less toe(s), init for opn fx');
+insert into homework (id, name, description) values (43, 'Isaak', 'Disloc of unsp acromioclav jt, 100%-200% displacmnt, init');
+insert into homework (id, name, description) values (44, 'Ronna', 'Fibrous dysplasia (monostotic), left hand');
+insert into homework (id, name, description) values (45, 'Sandor', 'Strain extn musc/fasc/tend r idx fngr at wrs/hnd lv, init');
+insert into homework (id, name, description) values (46, 'Zia', 'Other viral diseases complicating pregnancy, third trimester');
+insert into homework (id, name, description) values (47, 'Tera', 'Gonococcal prostatitis');
+insert into homework (id, name, description) values (48, 'Giustino', 'Nondisp fx of greater trochanter of r femr, 7thH');
+insert into homework (id, name, description) values (49, 'Chan', 'Other fracture of third metacarpal bone, left hand, sequela');
+insert into homework (id, name, description) values (50, 'Rip', 'Oth mature T/NK-cell lymph, extrnod and solid organ sites');
+
+
+insert into lesson (id, name, updatedAt, homework_id) values (1, 'Claresta', '2007-01-11', 1);
+insert into lesson (id, name, updatedAt, homework_id) values (2, 'Farra', '2021-01-20', 2);
+insert into lesson (id, name, updatedAt, homework_id) values (3, 'Nappy', '2019-05-08', 3);
+insert into lesson (id, name, updatedAt, homework_id) values (4, 'Gib', '2012-12-11', 4);
+insert into lesson (id, name, updatedAt, homework_id) values (5, 'Shannah', '2006-09-04', 5);
+insert into lesson (id, name, updatedAt, homework_id) values (6, 'Josselyn', '2019-11-20', 6);
+insert into lesson (id, name, updatedAt, homework_id) values (7, 'Galvin', '2013-11-26', 7);
+insert into lesson (id, name, updatedAt, homework_id) values (8, 'Addy', '2019-02-03', 8);
+insert into lesson (id, name, updatedAt, homework_id) values (9, 'Domini', '2008-06-06', 9);
+insert into lesson (id, name, updatedAt, homework_id) values (10, 'Kathe', '2023-04-04', 10);
+insert into lesson (id, name, updatedAt, homework_id) values (11, 'Darb', '2015-05-24', 11);
+insert into lesson (id, name, updatedAt, homework_id) values (12, 'Mohandas', '2001-07-03', 12);
+insert into lesson (id, name, updatedAt, homework_id) values (13, 'Marcelo', '2001-10-05', 13);
+insert into lesson (id, name, updatedAt, homework_id) values (14, 'Gwendolyn', '2010-08-02', 14);
+insert into lesson (id, name, updatedAt, homework_id) values (15, 'Smith', '2003-06-18', 15);
+insert into lesson (id, name, updatedAt, homework_id) values (16, 'Paige', '2011-07-30', 16);
+insert into lesson (id, name, updatedAt, homework_id) values (17, 'Charla', '2004-07-26', 17);
+insert into lesson (id, name, updatedAt, homework_id) values (18, 'Elsi', '2023-03-25', 18);
+insert into lesson (id, name, updatedAt, homework_id) values (19, 'Clovis', '2001-02-11', 19);
+insert into lesson (id, name, updatedAt, homework_id) values (20, 'Filbert', '2014-12-13', 20);
+insert into lesson (id, name, updatedAt, homework_id) values (21, 'Delila', '2003-02-03', 21);
+insert into lesson (id, name, updatedAt, homework_id) values (22, 'Brew', '2022-06-02', 22);
+insert into lesson (id, name, updatedAt, homework_id) values (23, 'Felike', '2013-04-04', 23);
+insert into lesson (id, name, updatedAt, homework_id) values (24, 'Aeriell', '2006-09-05', 24);
+insert into lesson (id, name, updatedAt, homework_id) values (25, 'Correy', '2009-02-27', 25);
+insert into lesson (id, name, updatedAt, homework_id) values (26, 'Dorothee', '2004-08-08', 26);
+insert into lesson (id, name, updatedAt, homework_id) values (27, 'Johannah', '2021-08-21', 27);
+insert into lesson (id, name, updatedAt, homework_id) values (28, 'Bethina', '2013-02-17', 28);
+insert into lesson (id, name, updatedAt, homework_id) values (29, 'Morgana', '2014-01-03', 29);
+insert into lesson (id, name, updatedAt, homework_id) values (30, 'Ogdan', '2016-10-16', 30);
+insert into lesson (id, name, updatedAt, homework_id) values (31, 'Melisent', '2020-10-06', 31);
+insert into lesson (id, name, updatedAt, homework_id) values (32, 'Ilsa', '2006-07-25', 32);
+insert into lesson (id, name, updatedAt, homework_id) values (33, 'Babs', '2017-08-19', 33);
+insert into lesson (id, name, updatedAt, homework_id) values (34, 'Garnet', '2010-07-06', 34);
+insert into lesson (id, name, updatedAt, homework_id) values (35, 'Xymenes', '2009-11-02', 35);
+insert into lesson (id, name, updatedAt, homework_id) values (36, 'Binky', '2022-12-13', 36);
+insert into lesson (id, name, updatedAt, homework_id) values (37, 'Rabi', '2017-09-03', 37);
+insert into lesson (id, name, updatedAt, homework_id) values (38, 'Jo', '2017-09-26', 38);
+insert into lesson (id, name, updatedAt, homework_id) values (39, 'Caldwell', '2010-05-20', 39);
+insert into lesson (id, name, updatedAt, homework_id) values (40, 'Marthena', '2012-08-17', 40);
+insert into lesson (id, name, updatedAt, homework_id) values (41, 'Isa', '2023-07-05', 41);
+insert into lesson (id, name, updatedAt, homework_id) values (42, 'Anallese', '2017-10-07', 42);
+insert into lesson (id, name, updatedAt, homework_id) values (43, 'Mella', '2015-08-09', 43);
+insert into lesson (id, name, updatedAt, homework_id) values (44, 'Dyanna', '2003-07-15', 44);
+insert into lesson (id, name, updatedAt, homework_id) values (45, 'Fidole', '2001-03-12', 45);
+insert into lesson (id, name, updatedAt, homework_id) values (46, 'Sholom', '2011-12-30', 46);
+insert into lesson (id, name, updatedAt, homework_id) values (47, 'Ranna', '2003-10-19', 47);
+insert into lesson (id, name, updatedAt, homework_id) values (48, 'Roy', '2007-11-25', 48);
+insert into lesson (id, name, updatedAt, homework_id) values (49, 'Arlene', '2001-08-05', 49);
+insert into lesson (id, name, updatedAt, homework_id) values (50, 'Janaye', '2005-02-20', 50);
+
+
