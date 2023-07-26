@@ -1,4 +1,4 @@
-package lessons21.Connection;
+package lessons21.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

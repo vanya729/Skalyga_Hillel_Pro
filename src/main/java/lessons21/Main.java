@@ -1,6 +1,6 @@
 package lessons21;
 
-import lessons21.Connection.LessonDao;
+import lessons21.connection.LessonDao;
 import lessons21.dataClass.Lesson;
 
 public class Main {
