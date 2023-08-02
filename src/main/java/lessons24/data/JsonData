@@ -1,0 +1,66 @@
+[
+    {"id":1,"product":"Product 1","date":"Jul 30, 2023, 7:48:12 PM","cost":10},
+    {"id":2,"product":"Product 2","date":"Jul 30, 2023, 7:48:12 PM","cost":20},
+    {"id":3,"product":"Product 3","date":"Jul 30, 2023, 7:48:12 PM","cost":30},
+    {"id":4,"product":"Product 4","date":"Jul 30, 2023, 7:48:12 PM","cost":40},
+    {"id":5,"product":"Product 5","date":"Jul 30, 2023, 7:48:12 PM","cost":50},
+    {"id":6,"product":"Product 6","date":"Jul 30, 2023, 7:48:12 PM","cost":60},
+    {"id":7,"product":"Product 7","date":"Jul 30, 2023, 7:48:12 PM","cost":70},
+    {"id":8,"product":"Product 8","date":"Jul 30, 2023, 7:48:12 PM","cost":80},
+    {"id":9,"product":"Product 9","date":"Jul 30, 2023, 7:48:12 PM","cost":90},
+    {"id":10,"product":"Product 10","date":"Jul 30, 2023, 7:48:12 PM","cost":100}
+]
+
+
+
+[{
+  "id": 1,
+  "product": "Dodge",
+  "date": "1/29/2013",
+  "cost": 46
+}, {
+  "id": 2,
+  "product": "Hyundai",
+  "date": "2/8/2021",
+  "cost": 1
+}, {
+  "id": 3,
+  "product": "Audi",
+  "date": "10/19/2018",
+  "cost": 18
+}, {
+  "id": 4,
+  "product": "Mazda",
+  "date": "8/8/2007",
+  "cost": 75
+}, {
+  "id": 5,
+  "product": "Chevrolet",
+  "date": "12/13/2008",
+  "cost": 27
+}, {
+  "id": 6,
+  "product": "Cadillac",
+  "date": "1/29/2010",
+  "cost": 43
+}, {
+  "id": 7,
+  "product": "MINI",
+  "date": "12/4/2022",
+  "cost": 91
+}, {
+  "id": 8,
+  "product": "Audi",
+  "date": "8/30/2011",
+  "cost": 91
+}, {
+  "id": 9,
+  "product": "Maserati",
+  "date": "12/26/2001",
+  "cost": 28
+}, {
+  "id": 10,
+  "product": "Chrysler",
+  "date": "4/23/2014",
+  "cost": 43
+}]
