@@ -1,0 +1,19 @@
+2023-08-17 11:32:35,318 [INFO ] [main          ] - Order added: Order{number=1, name='Vanya'}
+2023-08-17 11:32:35,320 [INFO ] [main          ] - Order added: Order{number=2, name='Alex'}
+2023-08-17 11:32:35,320 [INFO ] [main          ] - Order added: Order{number=3, name='Oleg'}
+2023-08-17 11:32:35,320 [INFO ] [main          ] - ===============================
+2023-08-17 11:32:35,321 [INFO ] [main          ] - 1 | Vanya
+2023-08-17 11:32:35,321 [INFO ] [main          ] - ===============================
+2023-08-17 11:32:35,321 [INFO ] [main          ] - 2 | Alex
+2023-08-17 11:32:35,321 [INFO ] [main          ] - ===============================
+2023-08-17 11:32:35,321 [INFO ] [main          ] - 3 | Oleg
+2023-08-17 11:32:35,321 [INFO ] [main          ] - Current orders: {1=Order{number=1, name='Vanya'}, 2=Order{number=2, name='Alex'}, 3=Order{number=3, name='Oleg'}}
+2023-08-17 11:32:35,322 [INFO ] [main          ] - Delivered order: Order{number=1, name='Vanya'}
+2023-08-17 11:32:35,322 [INFO ] [main          ] - After delivery:
+2023-08-17 11:32:35,322 [INFO ] [main          ] - Current orders: {2=Order{number=2, name='Alex'}, 3=Order{number=3, name='Oleg'}}
+2023-08-17 11:32:35,322 [INFO ] [main          ] - Delivered order: Order{number=2, name='Alex'}
+2023-08-17 11:32:35,324 [INFO ] [main          ] - Order number 157 does not exist.
+2023-08-17 11:32:35,325 [INFO ] [main          ] - After delivering order number 2:
+2023-08-17 11:32:35,326 [INFO ] [main          ] - Current orders: {3=Order{number=3, name='Oleg'}}
+2023-08-17 11:32:35,326 [INFO ] [main          ] - ===============================
+2023-08-17 11:32:35,326 [INFO ] [main          ] - 3 | Oleg
