@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-1.0.xml"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <!-- Create table Homework -->
+    <changeSet author="vanya" id="createHomeworkTable">
+        <createTable tableName="Homework">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="description" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+
+
+    <!-- insert data into table-->
+    <changeSet author="vanya" id="insert_data">
+        <insert tableName="Homework">
+            <column name="name" value="Aleksandr1"/>
+            <column name="description" value="Aleksandr Test"/>
+        </insert>
+    </changeSet>
+
+
+    <!-- insert data into table-->
+    <changeSet author="vanya" id="insert_data1">
+        <insert tableName="Homework">
+            <column name="name" value="Vanya"/>
+            <column name="description" value="Vanya Test"/>
+        </insert>
+    </changeSet>
+
+<!--    &lt;!&ndash; update table &ndash;&gt;-->
+<!--    <changeSet author="vanya" id="update_data">-->
+<!--        <update tableName="Homework">-->
+<!--            <column name="name" value="Oleksandr"/>-->
+<!--            <where>name='vanya'</where>-->
+<!--        </update>-->
+<!--    </changeSet>-->
+
+    <!-- Create table Lesson -->
+    <changeSet author="vanya" id="createLessonTable">
+        <createTable tableName="Lesson">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="updatedAt" type="TIMESTAMP"/>
+            <column name="homework_id" type="int">
+                <constraints foreignKeyName="fk_lesson_homework" references="Homework(id)"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <!-- Create table Schedule -->
+    <changeSet author="vanya" id="createScheduleTable">
+        <createTable tableName="Schedule">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="updatedAt" type="TIMESTAMP"/>
+        </createTable>
+    </changeSet>
+
+
+    <!-- Create table for many-to-many Schedule and Lesson -->
+    <changeSet author="vanya" id="createScheduleLessonTable">
+        <createTable tableName="ScheduleLesson">
+            <column name="schedule_id" type="int">
+                <constraints foreignKeyName="fk_schedulelesson_schedule" references="Schedule(id)"/>
+            </column>
+            <column name="lesson_id" type="int">
+                <constraints foreignKeyName="fk_schedulelesson_lesson" references="Lesson(id)"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
