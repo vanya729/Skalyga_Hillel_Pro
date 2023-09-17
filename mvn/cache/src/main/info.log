@@ -1,0 +1,26 @@
+сент. 17, 2023 11:39:45 PM Cache put
+INFO: Object added to cache: cache=1, key=1
+сент. 17, 2023 11:39:45 PM Cache put
+INFO: Object added to cache: cache=2, key=2
+сент. 17, 2023 11:39:45 PM Cache put
+WARNING: Invalid arguments to put method
+сент. 17, 2023 11:39:45 PM Cache put
+INFO: Object added to cache: cache=4, key=4
+сент. 17, 2023 11:39:45 PM Cache put
+INFO: Object added to cache: cache=5, key=5
+сент. 17, 2023 11:39:45 PM Cache get
+INFO: The object is obtained from the cache: cache=1, key=1
+сент. 17, 2023 11:39:45 PM Cache get
+WARNING: Invalid arguments for get method
+сент. 17, 2023 11:39:45 PM Cache get
+INFO: The object is obtained from the cache: cache=2, key=2
+сент. 17, 2023 11:39:45 PM Cache isCacheExist
+INFO: Cache 1 exists
+сент. 17, 2023 11:39:45 PM Cache isCacheExist
+INFO: Cache3does not exist
+сент. 17, 2023 11:39:45 PM Cache clear
+INFO: Cache 2cleared.
+сент. 17, 2023 11:39:45 PM Cache clear
+WARNING: Invalid arguments to clear method
+сент. 17, 2023 11:39:45 PM Cache clearAll
+INFO: All caches clear
