@@ -7,7 +7,7 @@ import java.util.Map;
 
 public interface OrderRepository {
 
-    public boolean putIntoCache(String cache, String key, String value);
-    public String getOrderById(String cache, String orderId);
+    public boolean putIntoCache(String order, String key, String value);
+    public String getOrderById(String order, String orderId);
     public Map<String, String> getAllOrders(String cache);
 }

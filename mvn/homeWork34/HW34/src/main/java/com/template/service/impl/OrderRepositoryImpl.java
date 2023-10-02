@@ -17,21 +17,21 @@ public class OrderRepositoryImpl implements OrderRepository {
     }
 
     @Override
-    public boolean putIntoCache(String cache, String key, String value) {
-        if (!this.orders.containsKey(cache)) {
-            this.orders.put(cache, new HashMap<>());
+    public boolean putIntoCache(String order, String key, String value) {
+        if (!this.orders.containsKey(order)) {
+            this.orders.put(order, new HashMap<>());
         }
-        this.orders.get(cache).put(key, value);
+        this.orders.get(order).put(key, value);
         log.info(this.orders.toString());
         return true;
     }
 
     @Override
-    public String getOrderById(String cache, String orderId) {
-        if (this.orders.containsKey(cache) && this.orders.get(cache).containsKey(orderId)) {
-            return this.orders.get(cache).get(orderId);
+    public String getOrderById(String order, String orderId) {
+        if (this.orders.containsKey(order) && this.orders.get(order).containsKey(orderId)) {
+            return this.orders.get(order).get(orderId);
         } else {
-            log.warn("Order with ID {} not found in cache {}", orderId, cache);
+            log.warn("Order with ID {} not found in cache {}", orderId, order);
             return null;
         }
     }
