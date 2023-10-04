@@ -3,7 +3,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
-    <changeSet id="create_product_table" author="vanya" >
+    <changeSet id="create_product_table" author="o.Stepurko" >
         <createTable tableName="product">
             <column name = "id" type="INT" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true"/>
@@ -13,7 +13,7 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="readFromFile" author="vanya">
+    <changeSet id="readFromFile" author="aStepurko">
         <loadData tableName="product"
                   file="db/changelog/update/product.csv"
                   separator="," >

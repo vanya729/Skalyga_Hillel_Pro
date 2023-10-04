@@ -14,7 +14,6 @@ import java.util.List;
 @Entity
 @Accessors(chain = true)
 @Table(name = "orders")
-
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,13 +22,10 @@ public class Order {
     private Timestamp date;
     private Double cost;
 
-
-
     @ManyToMany
     @JoinTable(name = "orderproduct",
             joinColumns = @JoinColumn(name = "order_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))
-
 
     private List<Product> products;
 
